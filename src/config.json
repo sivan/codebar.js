@@ -1,0 +1,21 @@
+{
+  "browsers": {
+    "chrome": true,
+    "safari": true,
+    "ff": true,
+    "ie": true,
+    "edge": true
+  },
+  "players": {
+    "host": {
+      "name": "Sivan",
+      "email": "sun.sivan@gmail.com",
+      "url": "http://codepen.io/sivan/"
+    },
+    "developer": null,
+    "designer": null
+  },
+  "ui": {
+    "theme": "dark"
+  }
+}

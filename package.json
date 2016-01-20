@@ -1,0 +1,40 @@
+{
+  "name": "codebar.js",
+  "version": "1.0.0",
+  "description": "A codebar for codepen",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivan/sivan.github.com.git"
+  },
+  "keywords": [
+    "codepen"
+  ],
+  "author": "Sivan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sivan/sivan.github.com/issues"
+  },
+  "homepage": "https://github.com/sivan/sivan.github.com",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "dot-loader": "^0.1.1",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^3.1.0",
+    "eslint-loader": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-uglify": "^1.5.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "stream-combiner2": "^1.1.1",
+    "style-loader": "^0.13.0",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^1.12.11",
+    "webpack-stream": "^3.1.0"
+  }
+}
