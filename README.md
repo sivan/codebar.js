@@ -18,10 +18,11 @@ var codebarConfig = {
   browsers: {
     chrome: '43+',
     ff: false,
+    safari: null,
     ie: 8
   },
   players: {
-    host: {
+    developer: {
         name: "Sivan",
         url: "http://codepen.io/sivan/"
     }
@@ -32,8 +33,31 @@ var codebarConfig = {
 
 Tips: 
 
-* All browser support are setting to `true` in default;
-* Set to `false` if this pen doesn't support this browser;
-* Set to `null` if you want to hide this browser
+* Set browser value to `false` if this pen doesn't support this browser;
+* Set browser value to `null` if you want to hide this browser.
+
+## Default Config
+
+```json
+{
+  "browsers": {
+    "chrome": true,
+    "safari": true,
+    "ff": true,
+    "ie": true,
+    "edge": true
+  },
+  "players": {
+    "developer": {
+      "name": "Sivan",
+      "url": "http://codepen.io/sivan/"
+    },
+    "designer": false
+  },
+  "ui": {
+    "theme": "dark"
+  }
+}
+```
 
 -- EOF --
