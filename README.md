@@ -1,12 +1,13 @@
 # Codebar.js
 
-A codebar for [codepen](http://codepen.io/).
+A [codebar](//sivan.github.io/codebar.js/) for codepens.
 
 ![DEMO](assets/demo.png)
 
 ## Usage
 
-1. Add `codebar.js` at **Add External JavaScript** section in **[Pen Settings - JavaScript]** 
+1. Add `codebar.js` at **Add External JavaScript** section in **[Pen Settings - JavaScript]**  
+    (Example url: `//sivan.github.io/codebar.js/dist/codebar.js`)
 2. Add pen config at **Stuff for &lt;head&gt;** section in **[Pen Settings - HTML]** 
 
 Here is a config sample:

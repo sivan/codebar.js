@@ -1,14 +1,14 @@
 {
   "name": "codebar.js",
-  "version": "1.0.0",
-  "description": "A codebar for codepen",
+  "version": "0.1.0",
+  "description": "A codebar for codepens",
   "main": "index.js",
   "scripts": {
     "test": "gulp publish"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sivan/sivan.github.com.git"
+    "url": "git+git@github.com:sivan/codebar.js.git"
   },
   "keywords": [
     "codepen"
@@ -16,9 +16,9 @@
   "author": "Sivan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sivan/sivan.github.com/issues"
+    "url": "https://github.com/sivan/codebar.js/issues"
   },
-  "homepage": "https://github.com/sivan/sivan.github.com",
+  "homepage": "https://github.com/sivan/codebar.js",
   "devDependencies": {
     "css-loader": "^0.23.1",
     "dot-loader": "^0.1.1",
