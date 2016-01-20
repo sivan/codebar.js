@@ -7,13 +7,11 @@
     "edge": true
   },
   "players": {
-    "host": {
+    "developer": {
       "name": "Sivan",
-      "email": "sun.sivan@gmail.com",
       "url": "http://codepen.io/sivan/"
     },
-    "developer": null,
-    "designer": null
+    "designer": false
   },
   "ui": {
     "theme": "dark"

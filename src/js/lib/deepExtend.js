@@ -1,4 +1,4 @@
-module.exports = function deepExtend(out) {
+function deepExtend(out) {
   out = out || {};
 
   for (var i = 1; i < arguments.length; i++) {
@@ -18,3 +18,4 @@ module.exports = function deepExtend(out) {
 
   return out;
 }
+module.exports = deepExtend;

@@ -3,18 +3,19 @@ var tpl = require('../jst/codebar.dot');
 var domReady = require('./lib/domReady.js');
 var deepExtend = require('./lib/deepExtend.js');
 var defaults = require('../config.json');
-var options;
 var domContainer = document.createElement('div');
 
 domReady(function() {
-  options = deepExtend({}, defaults, typeof codebarConfig === 'undefined' ? {} : codebarConfig);
+  var options = codebarConfig === 'undefined' ? defaults : deepExtend({}, defaults, codebarConfig);
+  var classList = 'codebar';
 
   if (options.ui.theme) {
     require('!style!css?minimize!sass!../scss/style.scss');
-    domContainer.className = 'codebar codebar-' + options.ui.theme;
+    classList += ' codebar-' + options.ui.theme;
   }
 
   domContainer.id = 'codebar';
+  domContainer.className = classList;
   domContainer.innerHTML = tpl(options);
   document.body.appendChild(domContainer);
 });
