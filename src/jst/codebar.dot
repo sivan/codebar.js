@@ -1,21 +1,23 @@
-<ul class="browser-list">
-  {{? it.browsers.chrome !== null }}
-  <li class="chrome"><span class="b">Chrome</span>{{? it.browsers.chrome }}{{? it.browsers.chrome !== true }}<span class="v">{{=it.browsers.chrome}}</span>{{?}} <span class="y">✓</span>{{??}} <span class="n">✗</span>{{?}}</li>
-  {{?}}
-  {{? it.browsers.safari !== null }}
-  <li class="safari"><span class="b">Safari</span>{{? it.browsers.safari }}{{? it.browsers.safari !== true }}<span class="v">{{=it.browsers.safari}}</span>{{?}} <span class="y">✓</span>{{??}} <span class="n">✗</span>{{?}}</li>
-  {{?}}
-  {{? it.browsers.ff !== null }}
-  <li class="firefox"><span class="b">Firefox</span>{{? it.browsers.ff }}{{? it.browsers.ff !== true }}<span class="v">{{=it.browsers.ff}}</span>{{?}} <span class="y">✓</span>{{??}} <span class="n">✗</span>{{?}}</li>
-  {{?}}
-  {{? it.browsers.ie !== null }}
-  <li class="ie"><span class="b">IE</span>{{? it.browsers.ie }}{{? it.browsers.ie !== true }}<span class="v">{{=it.browsers.ie}}</span>{{?}} <span class="y">✓</span>{{??}} <span class="n">✗</span>{{?}}</li>
-  {{?}}
-  {{? it.browsers.edge !== null }}
-  <li class="edge"><span class="b">Edge</span>{{? it.browsers.edge }}{{? it.browsers.edge !== true }}<span class="v">{{=it.browsers.edge}}</span>{{?}} <span class="y">✓</span>{{??}} <span class="n">✗</span>{{?}}</li>
-  {{?}}
-</ul>
-<ul class="player-list">
-  {{? it.players.designer }}<li>Designed by <a href="{{=it.players.designer.url}}">{{=it.players.designer.name}}</a></li>{{?}}
-  {{? it.players.developer }}<li>Code by <a href="{{=it.players.developer.url}}">{{=it.players.developer.name}}</a></li>{{?}}
-</ul>
+<div class="codebar-wrapper">
+  <ul class="browser-list">
+    {{? it.browsers.chrome !== null }}
+    <li class="chrome"><span class="b">Chrome</span>{{? it.browsers.chrome }}{{? it.browsers.chrome !== true }}<span class="v">{{=it.browsers.chrome}}</span>{{?}} <span class="y">✓</span>{{??}} <span class="n">✗</span>{{?}}</li>
+    {{?}}
+    {{? it.browsers.safari !== null }}
+    <li class="safari"><span class="b">Safari</span>{{? it.browsers.safari }}{{? it.browsers.safari !== true }}<span class="v">{{=it.browsers.safari}}</span>{{?}} <span class="y">✓</span>{{??}} <span class="n">✗</span>{{?}}</li>
+    {{?}}
+    {{? it.browsers.ff !== null }}
+    <li class="firefox"><span class="b">Firefox</span>{{? it.browsers.ff }}{{? it.browsers.ff !== true }}<span class="v">{{=it.browsers.ff}}</span>{{?}} <span class="y">✓</span>{{??}} <span class="n">✗</span>{{?}}</li>
+    {{?}}
+    {{? it.browsers.ie !== null }}
+    <li class="ie"><span class="b">IE</span>{{? it.browsers.ie }}{{? it.browsers.ie !== true }}<span class="v">{{=it.browsers.ie}}</span>{{?}} <span class="y">✓</span>{{??}} <span class="n">✗</span>{{?}}</li>
+    {{?}}
+    {{? it.browsers.edge !== null }}
+    <li class="edge"><span class="b">Edge</span>{{? it.browsers.edge }}{{? it.browsers.edge !== true }}<span class="v">{{=it.browsers.edge}}</span>{{?}} <span class="y">✓</span>{{??}} <span class="n">✗</span>{{?}}</li>
+    {{?}}
+  </ul>
+  <ul class="player-list">
+    {{? it.players.designer }}<li>Designed by <a href="{{=it.players.designer.url}}">{{=it.players.designer.name}}</a></li>{{?}}
+    {{? it.players.developer }}<li>Code by <a href="{{=it.players.developer.url}}">{{=it.players.developer.name}}</a></li>{{?}}
+  </ul>
+</div>

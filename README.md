@@ -2,7 +2,7 @@
 
 A [codebar](//sivan.github.io/codebar.js/) for codepens.
 
-![DEMO](assets/demo.png)
+![DEMO](preview.png)
 
 ## Usage
 
